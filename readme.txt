@@ -22,8 +22,8 @@ $ Packages
 $Folders
 1.Screenshots:screenshots of failed test cases
 2.ChromeDriver: chromedriver ,edgedriver
-3. Test Outepot: HTML Report file:///C:/Users/User/eclipse-workspace/Qa.CermatiRecruitmentTest/test-output/emailable-report.html
 
 
-$ POM.xml: contains selenium webdrier, TestNg, chromedriver,webdrivermanager, extentd manager,log4j
+
+$ POM.xml: contains selenium webdrier, TestNg, chromedriver,webdrivermanager, extent manager,log4j
 $testng.xml : use this file for run Test Suite
