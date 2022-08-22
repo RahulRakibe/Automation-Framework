@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T15:24:09 IST" name="Suite" finished-at="2022-08-22T15:24:56 IST" duration-ms="47286">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T15:24:09 IST" name="Test" finished-at="2022-08-22T15:24:56 IST" duration-ms="47286">
+      <class name="com.qa.Test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:09 IST" name="setUp" finished-at="2022-08-22T15:24:18 IST" duration-ms="8859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password()[pri:1, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:18 IST" name="TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password" finished-at="2022-08-22T15:24:22 IST" duration-ms="4093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:22 IST" name="close" finished-at="2022-08-22T15:24:23 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:23 IST" name="setUp" finished-at="2022-08-22T15:24:29 IST" duration-ms="6510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn()[pri:2, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:29 IST" name="TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn" finished-at="2022-08-22T15:24:31 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:31 IST" name="close" finished-at="2022-08-22T15:24:31 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:31 IST" name="setUp" finished-at="2022-08-22T15:24:38 IST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC003_verify_That_Logo_is_Displayed()[pri:3, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:38 IST" name="TC003_verify_That_Logo_is_Displayed" finished-at="2022-08-22T15:24:41 IST" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_verify_That_Logo_is_Displayed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:41 IST" name="close" finished-at="2022-08-22T15:24:42 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:42 IST" name="setUp" finished-at="2022-08-22T15:24:49 IST" duration-ms="6885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC005_verify_That_User_Able_To_Serch_product()[pri:4, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:49 IST" name="TC005_verify_That_User_Able_To_Serch_product" finished-at="2022-08-22T15:24:55 IST" duration-ms="6353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_verify_That_User_Able_To_Serch_product -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@2ea41516]" started-at="2022-08-22T15:24:55 IST" name="close" finished-at="2022-08-22T15:24:56 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.Test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
