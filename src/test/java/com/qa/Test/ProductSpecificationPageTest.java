@@ -26,6 +26,7 @@ public class ProductSpecificationPageTest extends TestBase {
 	SearchResultPage searchResultPage;
 	ProductSpecificationPage productSpecificationPage;
 	CartPage cartPage;
+	CheckoutAndPaymentsPage checkoutAndPaymentsPage;
 
 	// TC001::Verify that images of product are displayed correctly.
 	@Test(priority = 1, retryAnalyzer = RetryAnalyzer.class)
@@ -91,9 +92,14 @@ public class ProductSpecificationPageTest extends TestBase {
 		searchResultPage.click_ON_Product_Displayed();
 		productSpecificationPage.Buy_Now();
 
-		String Title = checkoutAndPaymentsPage.getTitle();
+		
+		String checkoutAndPaymentsPage_title=checkoutAndPaymentsPage.getTitle();
+	
+		System.out.println(checkoutAndPaymentsPage_title);
+		
 		String expected_page_title = "Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order";
-		sassert.assertEquals(Title, expected_page_title);
+		System.out.println(expected_page_title);
+		sassert.assertEquals(checkoutAndPaymentsPage_title, expected_page_title);
 		sassert.assertAll();
 	}
 }

@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.qa.Utility.Listnerclass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test(failed)(failed)">
     <classes>
-      <class name="com.qa.Test.ProductSpecificationPageTest">
+      <class name="com.qa.Test.CartPageTest">
+        <methods>
+          <include name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button"/>
+          <include name="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Test.CartPageTest -->
+      <class name="com.qa.Test.CheckoutAndPaymentsPageTest">
+        <methods>
+          <include name="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Test.CheckoutAndPaymentsPageTest -->
+      <class name="com.qa.Test.SearchResultPageTest">
         <methods>
           <include name="close"/>
-          <include name="verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page"/>
+          <include name="TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Test.SearchResultPageTest -->
+      <class name="com.qa.Test.ProductSpecificationPageTest">
+        <methods>
+          <include name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart"/>
+          <include name="close"/>
+          <include name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.ProductSpecificationPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

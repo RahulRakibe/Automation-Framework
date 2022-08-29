@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.Test.HomePageTest">
+      <class name="com.qa.Test.ProductSpecificationPageTest">
         <methods>
-          <include name="TC005_verify_That_User_Able_To_Serch_product"/>
           <include name="close"/>
+          <include name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.Test.HomePageTest -->
+      </class> <!-- com.qa.Test.ProductSpecificationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

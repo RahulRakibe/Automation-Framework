@@ -124,7 +124,7 @@ public class CartPageTest extends TestBase {
 
 		cartPage.click_On_Place_Order_Button();
 		String actual_page_title = checkoutAndPaymentsPage.getTitle();
-		String expected_page_title = ".Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order";
+		String expected_page_title = "Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order";
 		sassert.assertEquals(actual_page_title, expected_page_title);
 		sassert.assertAll();
 

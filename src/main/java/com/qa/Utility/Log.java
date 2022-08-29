@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Log {
-
+	
 	// Initialize Log4j logs
 	static final Logger Log = LogManager.getLogger(WatchService.class.getName());
 	// public static Logger Log = Logger.getLogger(Log.class.getName());

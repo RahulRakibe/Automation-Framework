@@ -60,27 +60,27 @@ public class ProductSpecificationPage extends TestBase
 	//Get Title of ProductSpecificationPage
 	public String getTitle_Of_ProductSpecificationPage() 
 	   {	
-		   	
+		   
 		   String ProductSpecificationPag_Title=driver.getTitle();
 		   return ProductSpecificationPag_Title;
 	   }
 	//get text from Sprcification on Product Specification Page or Product Details
 	public boolean specification()
 	{
-		
+
 		boolean result=Specifications.isDisplayed();	
 		return result;		
 	}
 	public String get_First_Product_Name()
 	{
-		
+		act.switchToWindow(driver);
 		String first_product_name=First_Product_Name.getText();
 		return first_product_name;
 	}
 	//product image is displayaed
 	public boolean Product_Image_IsDisplayaed()
 	{
-		
+	
 		boolean result=Product_Image.isDisplayed();
 		return result;
 	}
@@ -112,8 +112,10 @@ public class ProductSpecificationPage extends TestBase
 		try
 		{
 		if(Size_Of_Product.isDisplayed())
-		{			
-			Select_Size.click();		 		   
+		{		
+			
+			Select_Size.click();
+			Thread.sleep(2000);
 	        act.scrollUpToElement(driver, Buy_Now);
 	        Buy_Now.click();	 
 		}
