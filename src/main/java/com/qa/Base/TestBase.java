@@ -32,24 +32,24 @@ public class TestBase
 		   String url=dp.getUrl();
 		   
        //  if(browser.equalsIgnoreCase("chrome"))
-      /*    System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\eclipse-workspace\\AutomationFramework\\Chromedriver\\chromedriver.exe");
+         System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\eclipse-workspace\\AutomationFramework\\Chromedriver\\chromedriver.exe");
 	      driver=new ChromeDriver();		  
 		  driver.manage().window().maximize();
 		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
-		  driver.get(url);*/
+		  driver.get(url);
 		  
 		  
 		   
 		//if (browser.equalsIgnoreCase("edge"))
 	    // {				
-		  System.setProperty("webdriver.edge.driver","C:\\Users\\User\\eclipse-workspace\\AutomationFramework\\Chromedriver\\msedgedriver.exe");
+		/*  System.setProperty("webdriver.edge.driver","C:\\Users\\User\\eclipse-workspace\\AutomationFramework\\Chromedriver\\msedgedriver.exe");
 		  
 			driver=new EdgeDriver();
 		    driver.manage().window().maximize();
 		    driver.manage().deleteAllCookies();
-		    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  
-		    driver.get(url);
+		   // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  
+		    driver.get(url);*/
           // }
 		
 	/*if(browser.equalsIgnoreCase("firefox"))
@@ -70,9 +70,5 @@ public class TestBase
 		 //driver.close();
 		 driver.quit();
 	  }
-	
-	
-
-
 
 }

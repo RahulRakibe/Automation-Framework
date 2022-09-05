@@ -1,39 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="4" ignored="5" total="17" passed="2" failed="6" skipped="0">
+<testng-results retried="4" ignored="0" total="21" passed="11" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-29T20:09:09 IST" name="Failed suite [Suite]" finished-at="2022-08-29T20:15:10 IST" duration-ms="361719">
+  <suite started-at="2022-09-05T13:01:39 IST" name="Suite" finished-at="2022-09-05T13:09:34 IST" duration-ms="475294">
     <groups>
     </groups>
-    <test started-at="2022-08-29T20:09:09 IST" name="Test(failed)" finished-at="2022-08-29T20:15:10 IST" duration-ms="361719">
-      <class name="com.qa.Test.CheckoutAndPaymentsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@7b36aa0c]" started-at="2022-08-29T20:09:33 IST" name="setUp" finished-at="2022-08-29T20:09:44 IST" duration-ms="11437" status="PASS">
+    <test started-at="2022-09-05T13:01:39 IST" name="Test" finished-at="2022-09-05T13:09:34 IST" duration-ms="475294">
+      <class name="com.qa.Test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:01:40 IST" name="setUp" finished-at="2022-09-05T13:01:50 IST" duration-ms="9341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@7b36aa0c]" started-at="2022-08-29T20:09:44 IST" name="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login" finished-at="2022-08-29T20:10:12 IST" duration-ms="27958" status="FAIL">
+        <test-method signature="TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password()[pri:1, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:01:50 IST" name="TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password" finished-at="2022-09-05T13:01:53 IST" duration-ms="3787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:01:53 IST" name="close" finished-at="2022-09-05T13:01:54 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:01:54 IST" name="setUp" finished-at="2022-09-05T13:02:00 IST" duration-ms="5788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn()[pri:2, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:00 IST" name="TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn" finished-at="2022-09-05T13:02:01 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:01 IST" name="close" finished-at="2022-09-05T13:02:01 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:01 IST" name="setUp" finished-at="2022-09-05T13:02:07 IST" duration-ms="5632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC003_verify_That_Logo_is_Displayed()[pri:3, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:07 IST" name="TC003_verify_That_Logo_is_Displayed" finished-at="2022-09-05T13:02:11 IST" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_verify_That_Logo_is_Displayed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:11 IST" name="close" finished-at="2022-09-05T13:02:11 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:11 IST" name="setUp" finished-at="2022-09-05T13:02:17 IST" duration-ms="5888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC005_verify_That_User_Able_To_Serch_product()[pri:4, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:17 IST" name="TC005_verify_That_User_Able_To_Serch_product" finished-at="2022-09-05T13:02:24 IST" duration-ms="6627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_verify_That_User_Able_To_Serch_product -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.HomePageTest@550dbc7a]" started-at="2022-09-05T13:02:24 IST" name="close" finished-at="2022-09-05T13:02:24 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.Test.HomePageTest -->
+      <class name="com.qa.Test.CheckoutAndPaymentsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:08:01 IST" name="setUp" finished-at="2022-09-05T13:08:08 IST" duration-ms="7110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:08:08 IST" name="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login" finished-at="2022-09-05T13:08:35 IST" duration-ms="26345" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='npYOZI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [920bb8227dc6bf1942c6d186336d26c7, findElement {using=xpath, value=//span[@class='npYOZI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:65504}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65504/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 920bb8227dc6bf1942c6d186336d26c7]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79c2a56942e0c9d222f77c9df36e195a, findElement {using=xpath, value=//span[@class='npYOZI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53546/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79c2a56942e0c9d222f77c9df36e195a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='npYOZI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [920bb8227dc6bf1942c6d186336d26c7, findElement {using=xpath, value=//span[@class='npYOZI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:65504}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65504/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 920bb8227dc6bf1942c6d186336d26c7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79c2a56942e0c9d222f77c9df36e195a, findElement {using=xpath, value=//span[@class='npYOZI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53546/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79c2a56942e0c9d222f77c9df36e195a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -89,29 +139,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@7b36aa0c]" started-at="2022-08-29T20:10:13 IST" name="close" finished-at="2022-08-29T20:10:13 IST" duration-ms="580" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:08:35 IST" name="close" finished-at="2022-09-05T13:08:36 IST" duration-ms="1010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@7b36aa0c]" started-at="2022-08-29T20:10:13 IST" name="setUp" finished-at="2022-08-29T20:10:23 IST" duration-ms="9347" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:08:36 IST" name="setUp" finished-at="2022-09-05T13:08:42 IST" duration-ms="5961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@7b36aa0c]" started-at="2022-08-29T20:10:23 IST" name="TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address" finished-at="2022-08-29T20:10:46 IST" duration-ms="23014" status="PASS">
+        <test-method signature="TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:08:42 IST" name="TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address" finished-at="2022-09-05T13:09:03 IST" duration-ms="21080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@7b36aa0c]" started-at="2022-08-29T20:10:46 IST" name="close" finished-at="2022-08-29T20:10:46 IST" duration-ms="532" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:09:03 IST" name="close" finished-at="2022-09-05T13:09:04 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:09:04 IST" name="setUp" finished-at="2022-09-05T13:09:10 IST" duration-ms="5969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC003_Verify_That_Order_Summary_Having_Same_Product_Wich_Available_In_Cart_Page()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:09:10 IST" name="TC003_Verify_That_Order_Summary_Having_Same_Product_Wich_Available_In_Cart_Page" finished-at="2022-09-05T13:09:33 IST" duration-ms="23428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_Verify_That_Order_Summary_Having_Same_Product_Wich_Available_In_Cart_Page -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CheckoutAndPaymentsPageTest@5677323c]" started-at="2022-09-05T13:09:33 IST" name="close" finished-at="2022-09-05T13:09:34 IST" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.qa.Test.CheckoutAndPaymentsPageTest -->
       <class name="com.qa.Test.SearchResultPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.SearchResultPageTest@36916eb0]" started-at="2022-08-29T20:09:09 IST" name="setUp" finished-at="2022-08-29T20:09:21 IST" duration-ms="11349" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:24 IST" name="setUp" finished-at="2022-09-05T13:02:32 IST" duration-ms="7175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product()[pri:2, instance:com.qa.Test.SearchResultPageTest@36916eb0]" started-at="2022-08-29T20:09:21 IST" name="TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product" finished-at="2022-08-29T20:09:32 IST" duration-ms="10903" status="FAIL">
+        <test-method signature="verify_That_Filters_Options_Should_Be_Present_On_Search_Results_Page()[pri:1, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:32 IST" name="verify_That_Filters_Options_Should_Be_Present_On_Search_Results_Page" finished-at="2022-09-05T13:02:39 IST" duration-ms="7347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_That_Filters_Options_Should_Be_Present_On_Search_Results_Page -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:39 IST" name="close" finished-at="2022-09-05T13:02:40 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:40 IST" name="setUp" finished-at="2022-09-05T13:02:45 IST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product()[pri:2, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:45 IST" name="TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product" finished-at="2022-09-05T13:02:55 IST" duration-ms="9593" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate option with index: 6
@@ -165,51 +239,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.SearchResultPageTest@36916eb0]" started-at="2022-08-29T20:09:32 IST" name="close" finished-at="2022-08-29T20:09:33 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:55 IST" name="close" finished-at="2022-09-05T13:02:56 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:02:56 IST" name="setUp" finished-at="2022-09-05T13:03:02 IST" duration-ms="6049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC009_verify_That_When_User_Clicks_On_Any_Product_User_Should_Be_Redirected_To_Product_Specification_Page()[pri:3, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:03:02 IST" name="TC009_verify_That_When_User_Clicks_On_Any_Product_User_Should_Be_Redirected_To_Product_Specification_Page" finished-at="2022-09-05T13:03:23 IST" duration-ms="21447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC009_verify_That_When_User_Clicks_On_Any_Product_User_Should_Be_Redirected_To_Product_Specification_Page -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.SearchResultPageTest@4a883b15]" started-at="2022-09-05T13:03:23 IST" name="close" finished-at="2022-09-05T13:03:24 IST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.qa.Test.SearchResultPageTest -->
       <class name="com.qa.Test.ProductSpecificationPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:10:46 IST" name="setUp" finished-at="2022-08-29T20:10:55 IST" duration-ms="9229" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:03:24 IST" name="setUp" finished-at="2022-09-05T13:03:30 IST" duration-ms="6148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly()[pri:1, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:10:55 IST" name="TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly" finished-at="2022-08-29T20:11:08 IST" duration-ms="12407" status="PASS">
+        <test-method signature="TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly()[pri:1, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:03:30 IST" name="TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly" finished-at="2022-09-05T13:03:44 IST" duration-ms="13730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:11:08 IST" name="close" finished-at="2022-08-29T20:11:08 IST" duration-ms="560" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:03:44 IST" name="close" finished-at="2022-09-05T13:03:44 IST" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:11:08 IST" name="setUp" finished-at="2022-08-29T20:11:19 IST" duration-ms="10889" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:03:44 IST" name="setUp" finished-at="2022-09-05T13:03:51 IST" duration-ms="6791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart()[pri:2, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:11:19 IST" name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart" finished-at="2022-08-29T20:11:36 IST" duration-ms="16496" status="SKIP">
+        <test-method retried="true" signature="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart()[pri:2, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:03:51 IST" name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart" finished-at="2022-09-05T13:04:08 IST" duration-ms="17178" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ca107094b17097aa5bbed702bad86234, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:49551}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49551/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ca107094b17097aa5bbed702bad86234]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec75b674901aaf8be7ecbd11e3f0f974, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52487/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec75b674901aaf8be7ecbd11e3f0f974]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ca107094b17097aa5bbed702bad86234, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:49551}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49551/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ca107094b17097aa5bbed702bad86234
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec75b674901aaf8be7ecbd11e3f0f974, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52487/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec75b674901aaf8be7ecbd11e3f0f974
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -265,37 +351,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:11:36 IST" name="close" finished-at="2022-08-29T20:11:36 IST" duration-ms="586" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:08 IST" name="close" finished-at="2022-09-05T13:04:09 IST" duration-ms="808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:11:36 IST" name="setUp" finished-at="2022-08-29T20:12:00 IST" duration-ms="23454" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:09 IST" name="setUp" finished-at="2022-09-05T13:04:18 IST" duration-ms="8470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart()[pri:2, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:00 IST" name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart" finished-at="2022-08-29T20:12:17 IST" duration-ms="17333" status="FAIL">
+        <test-method signature="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart()[pri:2, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:18 IST" name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart" finished-at="2022-09-05T13:04:34 IST" duration-ms="16573" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ddcf45ad8348aab7c918a9944bb2993f, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:49695}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49695/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ddcf45ad8348aab7c918a9944bb2993f]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [299c0a8b19ffd4fddbf99ec4658a488a, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52579/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 299c0a8b19ffd4fddbf99ec4658a488a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ddcf45ad8348aab7c918a9944bb2993f, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:49695}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49695/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ddcf45ad8348aab7c918a9944bb2993f
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [299c0a8b19ffd4fddbf99ec4658a488a, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52579}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52579/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 299c0a8b19ffd4fddbf99ec4658a488a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -351,23 +437,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:18 IST" name="close" finished-at="2022-08-29T20:12:18 IST" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:35 IST" name="close" finished-at="2022-09-05T13:04:35 IST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:18 IST" name="setUp" finished-at="2022-08-29T20:12:25 IST" duration-ms="7170" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:35 IST" name="setUp" finished-at="2022-09-05T13:04:42 IST" duration-ms="6201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page()[pri:3, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:25 IST" name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page" finished-at="2022-08-29T20:12:41 IST" duration-ms="16121" status="SKIP">
+        <test-method retried="true" signature="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page()[pri:3, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:42 IST" name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page" finished-at="2022-09-05T13:04:56 IST" duration-ms="14327" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [PUMA Printed Men Round Neck Green T-Shirt - Buy PUMA Printed Men Round Neck Green T-Shirt Online at Best Prices in India | Flipkart.com]]]>
+expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [FTX Solid Men Round Neck Multicolor T-Shirt - Buy FTX Solid Men Round Neck Multicolor T-Shirt Online at Best Prices in India | Flipkart.com]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [PUMA Printed Men Round Neck Green T-Shirt - Buy PUMA Printed Men Round Neck Green T-Shirt Online at Best Prices in India | Flipkart.com]
+expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [FTX Solid Men Round Neck Multicolor T-Shirt - Buy FTX Solid Men Round Neck Multicolor T-Shirt Online at Best Prices in India | Flipkart.com]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 at com.qa.Test.ProductSpecificationPageTest.TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page(ProductSpecificationPageTest.java:103)
@@ -405,23 +491,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:41 IST" name="close" finished-at="2022-08-29T20:12:42 IST" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:56 IST" name="close" finished-at="2022-09-05T13:04:57 IST" duration-ms="667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:42 IST" name="setUp" finished-at="2022-08-29T20:12:57 IST" duration-ms="14829" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:04:57 IST" name="setUp" finished-at="2022-09-05T13:05:02 IST" duration-ms="5754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page()[pri:3, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:12:57 IST" name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page" finished-at="2022-08-29T20:13:12 IST" duration-ms="15306" status="FAIL">
+        <test-method signature="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page()[pri:3, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:05:02 IST" name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page" finished-at="2022-09-05T13:05:27 IST" duration-ms="24682" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [PUMA Printed Men Round Neck Green T-Shirt - Buy PUMA Printed Men Round Neck Green T-Shirt Online at Best Prices in India | Flipkart.com]]]>
+expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [FTX Solid Men Round Neck Multicolor T-Shirt - Buy FTX Solid Men Round Neck Multicolor T-Shirt Online at Best Prices in India | Flipkart.com]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [PUMA Printed Men Round Neck Green T-Shirt - Buy PUMA Printed Men Round Neck Green T-Shirt Online at Best Prices in India | Flipkart.com]
+expected [Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order] but found [FTX Solid Men Round Neck Multicolor T-Shirt - Buy FTX Solid Men Round Neck Multicolor T-Shirt Online at Best Prices in India | Flipkart.com]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 at com.qa.Test.ProductSpecificationPageTest.TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page(ProductSpecificationPageTest.java:103)
@@ -459,39 +545,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-08-29T20:13:13 IST" name="close" finished-at="2022-08-29T20:13:13 IST" duration-ms="516" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.ProductSpecificationPageTest@5824a83d]" started-at="2022-09-05T13:05:28 IST" name="close" finished-at="2022-09-05T13:05:28 IST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.qa.Test.ProductSpecificationPageTest -->
       <class name="com.qa.Test.CartPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:13:13 IST" name="setUp" finished-at="2022-08-29T20:13:34 IST" duration-ms="21127" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:05:28 IST" name="setUp" finished-at="2022-09-05T13:05:34 IST" duration-ms="5681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button()[pri:1, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:13:34 IST" name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button" finished-at="2022-08-29T20:13:52 IST" duration-ms="17277" status="SKIP">
+        <test-method retried="true" signature="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button()[pri:1, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:05:34 IST" name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button" finished-at="2022-09-05T13:05:52 IST" duration-ms="18013" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9f81c1e89dfcf2e437c0178968e743ad, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50057}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50057/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f81c1e89dfcf2e437c0178968e743ad]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b88ac796b28026f1934d5e1839e8f4f2, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52888/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b88ac796b28026f1934d5e1839e8f4f2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9f81c1e89dfcf2e437c0178968e743ad, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50057}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50057/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9f81c1e89dfcf2e437c0178968e743ad
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b88ac796b28026f1934d5e1839e8f4f2, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52888/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b88ac796b28026f1934d5e1839e8f4f2
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -547,37 +633,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:13:52 IST" name="close" finished-at="2022-08-29T20:13:52 IST" duration-ms="498" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:05:52 IST" name="close" finished-at="2022-09-05T13:05:53 IST" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:13:52 IST" name="setUp" finished-at="2022-08-29T20:14:01 IST" duration-ms="8894" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:05:53 IST" name="setUp" finished-at="2022-09-05T13:05:59 IST" duration-ms="6239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button()[pri:1, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:01 IST" name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button" finished-at="2022-08-29T20:14:18 IST" duration-ms="16705" status="FAIL">
+        <test-method signature="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button()[pri:1, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:05:59 IST" name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button" finished-at="2022-09-05T13:06:16 IST" duration-ms="17559" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e933b89589d267a121cf9bbac77f25ce, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50193}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50193/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e933b89589d267a121cf9bbac77f25ce]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2579d7a9ec4137ae8ea2f2eaae6a0413, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53002}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53002/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2579d7a9ec4137ae8ea2f2eaae6a0413]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='B_NuCI']"}
-  (Session info: MicrosoftEdge=104.0.1293.70)
+  (Session info: chrome=104.0.5112.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-E7FOCSH', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e933b89589d267a121cf9bbac77f25ce, findElement {using=xpath, value=//span[@class='B_NuCI']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50193}, msedge: {msedgedriverVersion: 103.0.1264.1 (8a5f8f9a1918d..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50193/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e933b89589d267a121cf9bbac77f25ce
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2579d7a9ec4137ae8ea2f2eaae6a0413, findElement {using=xpath, value=//span[@class='B_NuCI']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53002}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53002/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2579d7a9ec4137ae8ea2f2eaae6a0413
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -633,15 +719,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:18 IST" name="close" finished-at="2022-08-29T20:14:19 IST" duration-ms="492" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:06:17 IST" name="close" finished-at="2022-09-05T13:06:19 IST" duration-ms="1719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:19 IST" name="setUp" finished-at="2022-08-29T20:14:25 IST" duration-ms="6340" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:06:19 IST" name="setUp" finished-at="2022-09-05T13:06:27 IST" duration-ms="7907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page()[pri:4, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:25 IST" name="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page" finished-at="2022-08-29T20:14:41 IST" duration-ms="15928" status="SKIP">
+        <test-method signature="TC002_verify_That_Total_Amount_Of_All_Items_Should_Be_displayed_to_user()[pri:2, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:06:27 IST" name="TC002_verify_That_Total_Amount_Of_All_Items_Should_Be_displayed_to_user" finished-at="2022-09-05T13:06:41 IST" duration-ms="13970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_verify_That_Total_Amount_Of_All_Items_Should_Be_displayed_to_user -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:06:41 IST" name="close" finished-at="2022-09-05T13:06:41 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:06:41 IST" name="setUp" finished-at="2022-09-05T13:06:48 IST" duration-ms="7061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC005_verify_That_When_User_Clicks_On_Remove_Button_The_Item_Should_Be_Removed_From_Cart()[pri:3, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:06:48 IST" name="TC005_verify_That_When_User_Clicks_On_Remove_Button_The_Item_Should_Be_Removed_From_Cart" finished-at="2022-09-05T13:07:08 IST" duration-ms="19752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_verify_That_When_User_Clicks_On_Remove_Button_The_Item_Should_Be_Removed_From_Cart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:07:08 IST" name="close" finished-at="2022-09-05T13:07:09 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:07:09 IST" name="setUp" finished-at="2022-09-05T13:07:15 IST" duration-ms="5941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page()[pri:4, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:07:15 IST" name="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page" finished-at="2022-09-05T13:07:35 IST" duration-ms="20015" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -687,15 +797,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:41 IST" name="close" finished-at="2022-08-29T20:14:41 IST" duration-ms="540" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:07:35 IST" name="close" finished-at="2022-09-05T13:07:35 IST" duration-ms="600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:41 IST" name="setUp" finished-at="2022-08-29T20:14:54 IST" duration-ms="12061" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:07:35 IST" name="setUp" finished-at="2022-09-05T13:07:43 IST" duration-ms="7481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page()[pri:4, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:14:54 IST" name="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page" finished-at="2022-08-29T20:15:10 IST" duration-ms="16001" status="FAIL">
+        <test-method signature="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page()[pri:4, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:07:43 IST" name="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page" finished-at="2022-09-05T13:08:00 IST" duration-ms="17220" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -741,11 +851,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@18df8434]" started-at="2022-08-29T20:15:10 IST" name="close" finished-at="2022-08-29T20:15:10 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.qa.Test.CartPageTest@537f60bf]" started-at="2022-09-05T13:08:01 IST" name="close" finished-at="2022-09-05T13:08:01 IST" duration-ms="600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.qa.Test.CartPageTest -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

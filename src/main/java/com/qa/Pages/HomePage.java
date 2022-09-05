@@ -15,7 +15,8 @@ import com.qa.Base.TestBase;
 public class HomePage extends TestBase {
 	Action act = new Action();
 
-	public HomePage() {
+	public HomePage() 
+	{
 		PageFactory.initElements(driver, this);
 	}
 //===============================================================
@@ -58,7 +59,8 @@ public class HomePage extends TestBase {
 	// Perform Action on WebElements
 
 	// Enter_Email_Mobile_number_TextBox
-	public void enter_Email_Mobile_number_TextBox(String username) {
+	public void enter_Email_Mobile_number_TextBox(String username)
+	{
 		act.text(Enter_Email_Mobile_number_InputBox, username);
 	}
 

@@ -6,6 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.qa.Test.ProductSpecificationPageTest">
+        <methods>
+          <include name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart"/>
+          <include name="close"/>
+          <include name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Test.ProductSpecificationPageTest -->
       <class name="com.qa.Test.SearchResultPageTest">
         <methods>
           <include name="close"/>
@@ -13,23 +21,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.SearchResultPageTest -->
-      <class name="com.qa.Test.CheckoutAndPaymentsPageTest">
-        <methods>
-          <include name="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login"/>
-          <include name="close"/>
-          <include name="TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.Test.CheckoutAndPaymentsPageTest -->
-      <class name="com.qa.Test.ProductSpecificationPageTest">
-        <methods>
-          <include name="TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly"/>
-          <include name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart"/>
-          <include name="close"/>
-          <include name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.Test.ProductSpecificationPageTest -->
       <class name="com.qa.Test.CartPageTest">
         <methods>
           <include name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button"/>
@@ -38,6 +29,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.CartPageTest -->
+      <class name="com.qa.Test.CheckoutAndPaymentsPageTest">
+        <methods>
+          <include name="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Test.CheckoutAndPaymentsPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
