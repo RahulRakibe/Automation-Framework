@@ -1,11 +1,10 @@
 **Automation Framework**
-**___________________________________________________________________**
+
 #### Introduction
-
 ###### A sample framework based on Page Object Model, Selenium, TestNG using Java Programming language.This framework is based in Page Object Model design pattern (POM).I have use the Flipkart website for the sample test scripts.
-.
-#### The framework uses:
 
+
+#### The framework uses:
 - Java 
 - Selenium 
 - TestNG
@@ -34,8 +33,7 @@
 4. ExtentReport: The framework produce html report. After test script execution HTML report generate with failed test cases screenshot’s and save under the ExtentReport folder.
 5. TestCases:  Having all sample test cases in the Excel sheet. Yellow highlighted mark test cases are automated.  
 
-
-##### POM.xml:
+#### POM.xml:
 The pom.xml contains all the dependencies used in the project. It Contains selenium webdrier, TestNg, chromedriver, webdrivermanager, extent manager, log4j.
 
 ##### testng.xml:
