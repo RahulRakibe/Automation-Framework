@@ -2,7 +2,6 @@ package com.qa.Pages;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -76,8 +75,8 @@ public class HomePage extends TestBase {
 
 	// get Account holder name from Account section
 	public String get_Account_Holder_Name() throws InterruptedException {
-		Thread.sleep(1000);
-		String name = Account_Holder_Name.getText();
+		Thread.sleep(2000);
+		String name = Account_Holder_Name.getText();		
 		return name;
 	}
 
@@ -98,14 +97,14 @@ public class HomePage extends TestBase {
 	public SearchResultPage search_Product(String productname) throws Exception {
 		Thread.sleep(1000);
 		act.text(Search_Tab, productname);
-		act.click(driver, Search_Button);
+		act.jsClick(driver, Search_Button);
 		return new SearchResultPage();
 	}
 
 	public String get_Text_From_Product() throws Exception {
-		Thread.sleep(1000);
+		
 		act.scrollPage(driver, "window.scrollBy(0,366)");
 		String productDescription = Product_Displayed_On_HomePage.getText();
 		return productDescription;
 	}
-}
+} 

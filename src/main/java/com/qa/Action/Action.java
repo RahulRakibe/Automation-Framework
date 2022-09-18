@@ -3,11 +3,10 @@ package com.qa.Action;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.Date;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,36 +17,38 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.Base.TestBase;
 
 public class Action extends TestBase {
-	// click by java script
-	public void jsClick(WebDriver driver, WebElement element) {
-		JavascriptExecutor executor = (JavascriptExecutor) driver;
-		executor.executeScript("arguments[0].click();", element);
-	}
-
+	
 	// click on element by move to element method
-	public void click(WebDriver driver, WebElement ele) {
+	public void click(WebDriver driver, WebElement element) {
 		Actions act = new Actions(driver);
-		act.moveToElement(ele).click().build().perform();
+		act.moveToElement(element).click().build().perform();
 	}
-
+	
+	// click by java script
+		public void jsClick(WebDriver driver, WebElement element) {
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();", element);
+		}
+		
 	// to scroll upto element
 	public void scrollUpToElement(WebDriver driver, WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", element);
 	}
+	//Scroll web Page
+		public void scrollPage(WebDriver driver, String function) {
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript(function);
+		}
 
-	public void scrollPage(WebDriver driver, String function) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript(function);
-	}
-
-	// send text by send keys
+	// send text by send keys method
 	public void text(WebElement element, String text) {
 		element.clear();
 		element.sendKeys(text);
@@ -98,16 +99,17 @@ public class Action extends TestBase {
 		driver.switchTo().frame(name);
 	}
 
-	// switch to DefaultFrame
+	// switch to DefaultFrame /parent window
 	public void switchToDefaultFrame(WebDriver driver) {
 		driver.switchTo().defaultContent();
 	}
 
 	// switch back letest parent frame
 	public void switchToParentFraem(WebDriver driver) {
-		driver.switchTo().defaultContent();
+		driver.switchTo().parentFrame();
 	}
-
+	
+	//Move to element
 	public void moveToElement(WebDriver driver, WebElement target) {
 		Actions clicke = new Actions(driver);
 		clicke.moveToElement(target).build().perform();
@@ -190,4 +192,7 @@ public class Action extends TestBase {
 			System.out.println("Show Exception");
 		}
 	}
+	
+	
+
 }

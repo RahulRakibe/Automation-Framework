@@ -39,8 +39,7 @@ public class CartPageTest extends TestBase {
 		homepage.click_on_Login_Button();
 		homepage.search_Product(product_Name);
 		searchResultPage.click_ON_Product_Displayed();
-		String first_product_name = productSpecificationPage.get_First_Product_Name();
-
+		
 		productSpecificationPage.click_On_Go_To_Cart_Button();
 		productSpecificationPage.click_On_cart_Button();
 		String product_quantity = cartPage.product_Quantity();

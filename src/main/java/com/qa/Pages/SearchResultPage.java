@@ -62,7 +62,8 @@ public class SearchResultPage extends TestBase {
 	// ==========================================================================
 
 	// product search result Text
-	public String product_Result_Text() {
+	public String product_Result_Text() throws InterruptedException {
+		Thread.sleep(1000);
 		String Text = Search_Product_Result_Text.getText();
 		return Text;
 	}
@@ -95,7 +96,7 @@ public class SearchResultPage extends TestBase {
 
 	// click on Random product displayed on Serch result page
 	public ProductSpecificationPage click_ON_Product_Displayed() {
-		act.jsClick(driver, Product_Displayed);
+		act.click(driver, Product_Displayed);
 		return new ProductSpecificationPage();
 	}
 

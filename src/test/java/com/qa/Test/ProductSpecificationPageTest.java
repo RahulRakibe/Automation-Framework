@@ -91,7 +91,6 @@ public class ProductSpecificationPageTest extends TestBase {
 		homepage.search_Product(product_Name);
 		searchResultPage.click_ON_Product_Displayed();
 		productSpecificationPage.Buy_Now();
-
 		
 		String checkoutAndPaymentsPage_title=checkoutAndPaymentsPage.getTitle();
 	

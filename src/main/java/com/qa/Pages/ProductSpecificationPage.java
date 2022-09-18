@@ -27,7 +27,7 @@ public class ProductSpecificationPage extends TestBase
 	
 	// First product name 
 	@FindBy(xpath="//span[@class='B_NuCI']")
-	public WebElement First_Product_Name;
+	 WebElement First_Product_Name;
 	
 	//go to cart buutton
 	@FindBy(xpath="//button[@class='_2KpZ6l _2U9uOA _3v1-ww']")

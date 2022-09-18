@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.Test.HomePageTest">
         <methods>
-          <include name="TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password"/>
-          <include name="close"/>
+          <include name="TC005_verify_That_User_Able_To_Serch_product"/>
+          <include name="quitBrowser"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.HomePageTest -->

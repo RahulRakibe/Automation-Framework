@@ -6,17 +6,30 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.qa.Test.HomePageTest">
+        <methods>
+          <include name="TC002_Verify_That_Home_Page_Is_Displayed_After_LogIn"/>
+          <include name="TC003_verify_That_Logo_is_Displayed"/>
+          <include name="TC001_verify_That_User_Should_Login_With_Correct_User_Name_and_Password"/>
+          <include name="TC005_verify_That_User_Able_To_Serch_product"/>
+          <include name="quitBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Test.HomePageTest -->
       <class name="com.qa.Test.ProductSpecificationPageTest">
         <methods>
+          <include name="TC001_verify_That_Images_Of_Product_Are_Displayed_Correctly"/>
           <include name="TC007_Verify_That_When_User_Clicks_On_Go_To_Cart_The_Product_Should_Be_Add_Into_Cart"/>
-          <include name="close"/>
           <include name="TC008_verify_That_When_User_Clicks_On_Buy_Now_button_Then_User_Land_On_Checkout_And_Payments_Page"/>
+          <include name="quitBrowser"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.ProductSpecificationPageTest -->
       <class name="com.qa.Test.SearchResultPageTest">
         <methods>
-          <include name="close"/>
+          <include name="verify_That_Filters_Options_Should_Be_Present_On_Search_Results_Page"/>
+          <include name="TC009_verify_That_When_User_Clicks_On_Any_Product_User_Should_Be_Redirected_To_Product_Specification_Page"/>
+          <include name="quitBrowser"/>
           <include name="TC00_verify_That_User_Able_to_Apply_Filters_on_Serch_Product"/>
           <include name="setUp"/>
         </methods>
@@ -25,14 +38,18 @@
         <methods>
           <include name="TC001_verify_That_Item_Quantity_Should_Be_Increased_If_user_click_On_Increase_Button"/>
           <include name="TC007_verify_That_User_Should_Able_To_Ckick_On_Place_Order_Button_And_Redirect_On_Checkout_And_Payments_Page"/>
-          <include name="close"/>
+          <include name="TC005_verify_That_When_User_Clicks_On_Remove_Button_The_Item_Should_Be_Removed_From_Cart"/>
+          <include name="quitBrowser"/>
+          <include name="TC002_verify_That_Total_Amount_Of_All_Items_Should_Be_displayed_to_user"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.CartPageTest -->
       <class name="com.qa.Test.CheckoutAndPaymentsPageTest">
         <methods>
+          <include name="TC003_Verify_That_Order_Summary_Having_Same_Product_Wich_Available_In_Cart_Page"/>
           <include name="TC001_verify_That_Valid_Account_Holder_Name_Displyed_Under_Login"/>
-          <include name="close"/>
+          <include name="quitBrowser"/>
+          <include name="TC002_verify_That_Delivery_Address_Details_Should_Be_Displayed_And_User_Able_To_Select_One_Delivery_Address"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.Test.CheckoutAndPaymentsPageTest -->

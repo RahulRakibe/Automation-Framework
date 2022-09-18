@@ -37,7 +37,6 @@ public class HomePageTest extends TestBase {
 		boolean result = Account_Holder_Name.contains(name);
 		sassert.assertTrue(result);
 		sassert.assertAll();
-
 	}
 
 	// TC002::Verify that home page is displayed after Sign-In or not.
@@ -56,9 +55,8 @@ public class HomePageTest extends TestBase {
 		String expected_Homepage_title = "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!";
 		sassert.assertEquals(actual_HomePage_Title, expected_Homepage_title);
 		sassert.assertAll();
-
 	}
-
+	
 	// TC003::Verify that logo is displayed on home page or not
 	@Test(priority = 3, retryAnalyzer = RetryAnalyzer.class)
 	public void TC003_verify_That_Logo_is_Displayed() throws InterruptedException {
@@ -80,12 +78,9 @@ public class HomePageTest extends TestBase {
 		homepage.enter_Email_Mobile_number_TextBox(username);
 		homepage.enter_Password_Text_Box(pass);
 		homepage.click_on_Login_Button();
-
 		searchResultPage = homepage.search_Product(product_Name);
-
 		String ActualText = searchResultPage.product_Result_Text();
 		sassert.assertEquals(ActualText, product_Name);
 		sassert.assertAll();
 	}
-
 }
